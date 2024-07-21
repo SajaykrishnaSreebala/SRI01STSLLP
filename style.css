@@ -1,0 +1,90 @@
+html,body {
+  margin:0;
+  padding:0;
+  overflow-x:hidden;
+  background-color: rgb(255, 255, 255);
+}
+
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.Nav_Head{
+  padding-top: 20px;
+}
+
+
+#navsectiontext {
+  color: black; 
+  font-size: medium; 
+  font-weight: bold; 
+  font-style: italic;
+  font-size: large;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+
+
+
+@media (max-width: 1026px) { 
+  #whitereset { 
+    margin-top: 100px;
+  } 
+  #rightSlideid{
+  height: 18vh;
+  }
+  #aboutscreenadjust{
+  height: 50vh;
+  }
+  #textcompanyadjust{
+    font-size: x-large;
+  }
+}
+
+
+
+
+.left_intro_about_bharat{
+  height: 80vh;
+  float: left;
+}
+
+.right_intro_about{
+  height: 80vh;
+  float: left;
+}
+
+
+.leftSlide{
+  height: 80vh;
+  float: left;
+}
+
+.rightSlide{
+  height: 80vh;
+  float: left;
+}
+
+.slidebackgroundcanvas{
+  background-color: white;
+  border-radius: 20px;
+}
+
+
+
+
+
+
+
+#toptitle {
+  aspect-ratio: 1/1; 
+  display: flex; 
+  float: right; 
+  background-color: rgb(212, 62, 62); 
+  width: 25vb; 
+  justify-content: center; 
+  display: flex; align-items: center;
+}

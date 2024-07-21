@@ -1,0 +1,203 @@
+.container_b{
+    width: 100%;
+    overflow: hidden;
+    height: 80vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.slider{
+    height: 750px;
+    width: 100vw;
+    display: flex;
+    perspective: 1000px;
+    position: relative;
+    align-items: center;
+}
+
+
+.box1{
+    background-image: url(vehicle_images/autogoodsvehicle.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+.box2{
+    background: url(vehicle_images/carvehicle.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+.box3{
+    background: url(vehicle_images/sevenseatercar.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+.box4{
+    background: url(vehicle_images/autogoodsvehicle.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+.box5{
+    background: url(vehicle_images/electricforklift.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+.box6{
+    background: url(vehicle_images/pickupvehicle.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.box7{
+    background: url(vehicle_images/travellervehicles.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+.box8{
+    background: url(vehicle_images/irisvehicle.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+.box9{
+    background: url(vehicle_images/cranevehicle.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+.box10{
+    background: url(vehicle_images/jcbvehicle.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+
+.slider [class*="box"]{
+    overflow: hidden;
+    border-radius: 20px;
+    transition: all 5s cubic-bezier(0.68,0.0, 0.32, 1.6);
+    position: absolute;
+}
+
+.slider [class*="box"]:nth-child(7),
+.slider [class*="box"]:nth-child(7){
+    width: 100vh;
+    height: 60vh;
+    transform: scale(0.2) translate(-50%, -50%);
+    top: 20%;
+    z-index: 1;
+}
+
+
+
+
+.slider [class*="box"]:nth-child(6){
+    width: 100vh;
+    height: 60vh;
+    transform: scale(0.4) translate(-50%, -50%);
+    top: 10%;
+    z-index: 2;
+}
+
+.slider [class*="box"]:nth-child(5){
+    width: 60vh;
+    height: 40vh;
+    transform: scale(0.6) translate(-50%, -50%);
+    top: 20%;
+    z-index: 3;
+}
+
+
+.slider [class*="box"]:nth-child(4){
+    width: 60vh;
+    height: 100vh;
+    color: #fff;
+    border-color: #c92026;
+    transform: scale(1) translate(-50%, -50%);
+    top: 52%;
+    z-index: 4;
+}
+
+
+.slider [class*="box"]:nth-child(1){
+    left: -13%;
+}
+
+
+.slider [class*="box"]:nth-child(2){
+    left: -5%;
+}
+
+.slider [class*="box"]:nth-child(3){
+    left: 10%;
+}
+
+.slider [class*="box"]:nth-child(4){
+    left: 50%;
+}
+
+
+
+.slider [class*="box"]:nth-child(5){
+    left: 71%;
+}
+
+
+
+.slider [class*="box"]:nth-child(6){
+    left: -85%;
+}
+
+
+
+
+.slider [class*="box"]:nth-child(7){
+    left: -100%;
+}
+
+
+
+
+.slider .firstSlider{
+    -webkit-animation: firstChild 5s;
+    animation: firstChild 5s;
+}
+
+
+@-webkit-keyframes first-child{
+    0%{left: 100%; transform: scale(0.2) translate(-50%,-50%); }
+}
+
+
+@keyframes first-child{
+    0%{left: 100%; transform: scale(0.2) translate(-50%,-50%); }
+}
+
+
+
