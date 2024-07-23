@@ -149,10 +149,10 @@ html,body {
 }
 
 #backgroundImg{
-  background-image: url('../assets/backgroundlogo.png'); background-size: cover; background-repeat: no-repeat;; background-position-y: bottom;
+  background-image: url(assets/backgroundlogo.png); background-size: cover; background-repeat: no-repeat;; background-position-y: bottom;
 }
 #bharatseva{
-  height: 40vh; width: 70vb; border-radius: 40px; justify-content: center; border-bottom-right-radius: 50px; margin-left: 12vb; border-left: 2px solid rgba(180, 180, 180, 0.13); margin: 20px; position: absolute; top: 40vh;
+  height: 40vh; width: 70vb; border-radius: 40px; justify-content: center; border-bottom-right-radius: 50px; left: 0vb; border-left: 2px solid rgba(180, 180, 180, 0.13); margin: 20px; position: absolute; top: 40vh;
 }
 #titlewebsite{
   padding-left:5%; position: absolute; top: 12vh; left: 5vb; font-style:italic; font-weight: bold; text-decoration: underline;
@@ -181,7 +181,7 @@ html,body {
 @media (max-width: 1026px) { 
 
   #btnready{
-    position: absolute; right: 10vb; top: 25vh; border-radius: 10px; padding: 1vh; width: 40vh; height: 15vh; font-size: xx-large; font-weight: bold; background-color: rgb(243, 255, 243); color: #04a104; border: #000000; box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    position: absolute;  top: 25vh; border-radius: 10px; padding: 1vh; width: 20vh; height: 8vh; font-size: xx-large; font-weight: bold; background-color: rgb(243, 255, 243); color: #04a104; border: #000000; box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   }
 
   .fontcount{
@@ -201,7 +201,7 @@ html,body {
   }
 
   #backgroundImg{
-    background-image: url('../assets/backgroundlogo.png'); background-size: cover; height: 10vh; background-repeat: no-repeat; background-position-y: bottom;
+    background-image: url(assets/backgroundlogo.png); background-size: cover; height: 10vh; background-repeat: no-repeat; background-position-y: bottom;
   }
 
   #our_vision_test{
@@ -250,8 +250,8 @@ html,body {
   }
 
   #textcompanyadjust{
-    font-size: x-large;
-    margin-left: 5vb; margin-top: 12vh; position: absolute; font-style: italic;
+    font-size: large;
+    margin-left: 5vb; margin-right: 5vb; margin-top: 12vh; position: absolute; font-style: italic;
     
   }
 
