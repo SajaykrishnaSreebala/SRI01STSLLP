@@ -10,66 +10,59 @@
 </head>
 <body style="background-color: rgb(148, 207, 255)">
 
-  
   <div class="row" style="height: 100vh; background-color: rgb(148, 207, 255); background-image: url('../assets/backgroundlogo.png'); background-size: contain; background-repeat: no-repeat; background-position-y: bottom;">
     <div class="left_intro_about_bharat col-sm-6" id="aboutscreenadjust" style="position: relative;">
-      <h1 style=" padding-left:5%; position: absolute; top: 12vh; left: 5vb; font-style:italic; font-weight: bold; text-decoration: underline;">C-Taxi Website Release </h1>
-      <h3 id="textcompanyadjust" style="margin-left: 10vb; margin-top: 25vh; position: absolute; font-style: italic;">
-        <b class="p-2" style="background-color: white; color: rgb(0, 219, 29);">Date & Time : 21/07/2024  11:21:00 AM IST</b> <br> <br>
+      <h1 id="titlewebsite">C-Taxi Website Release </h1>
+      <h3 id="textcompanyadjust" >
+        <b class="p-2" style="background-color: white; color: rgb(0, 219, 29);">Date & Time : 24/07/2024 <br><br>  11:21:00 AM IST</b> <br> <br>
         A Taxi Booking App in India. <br>Powered by, <br>
         <b>SREEBALA TECHNOLOGY SERVICES LLP</b>
         <br> <br>
       </h3>
-
-      
-
-
     </div>
-  
 
-    <div class="right_intro_about col-sm-6" style="position: relative;">
-
+    <div class="right_intro_about col-sm-6" id="aboutscreenadjust" style="position: relative;">
       <br>
-      <div class="container" style="top: 10vh; right: 20vb;"  >
+      <div class="container" style="top: 10vh; right: 20vb;">
    
-        <a href="about.html">
-        <button style="position: absolute; right: 10vb; top: 80vh; border-radius: 10px; padding: 1vh; width: 40vh; height: 15vh; font-size: xx-large; font-weight: bold; background-color: rgb(243, 255, 243); color: #04a104; border: #000000; box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);">
+        
+        <button id="btnready">
             Ready
           </button> 
-        </a>
+     
 
         <div style="background-color: white; aspect-ratio: 6 / 2; border-radius: 10px; " >
       
          <center>
           <div class="p-1" style="border-radius: 10px; justify-content: center; display: flex; align-items: center;">
-            <div class="me-1" style="border-radius: 10px; aspect-ratio: 2/1; display: flex; float: right; border-radius: 10px; background-color: rgb(141, 247, 255); width: 25vb; justify-content: center; display: flex; align-items: center; font-size: 5vb;"><b>DAYS</b></div>
-            <div class="me-1" style="border-radius: 10px; aspect-ratio: 2/1; display: flex; float: right; background-color: rgb(87, 255, 129); width: 25vb;  justify-content: center; display: flex; align-items: center; font-size: 5vb;"><b>HOURS</b></div>
-            <div class="me-1" style=" border-radius: 10px;aspect-ratio: 2/1; display: flex; float: right; background-color: rgb(197, 176, 255); width: 25vb;  justify-content: center; display: flex; align-items: center; font-size: 5vb;"><b>MINUTES</b></div>
-            <div class="me-1" style="border-radius: 10px; aspect-ratio: 2/1; display: flex; float: right; background-color: rgb(255, 136, 201); width: 25vb;  justify-content: center; display: flex; align-items: center; font-size: 5vb;"><b>SECONDS</b></div>
+            <div class="me-1" id="countdowntime" style="background-color: rgb(141, 247, 255);"><b>DAYS</b></div>
+            <div class="me-1" id="countdowntime" style="background-color: rgb(87, 255, 129);"><b>HOURS</b></div>
+            <div class="me-1" id="countdowntime" style="background-color: rgb(197, 176, 255);"><b>MINUTES</b></div>
+            <div class="me-1" id="countdowntime" style="background-color: rgb(255, 136, 201)"><b>SECONDS</b></div>
           </div>
 
           <div class="me-1" style="justify-content: center; display: flex; align-items: center;">
             <div class="m-1" style="border-radius: 10px; aspect-ratio: 1/1; display: flex; float: right; background-color: rgb(255, 136, 201); width: 25vb; justify-content: center; display: flex; align-items: center; font-size: 5vb;">
               <div style="background-color: white; height: 90%; width: 90%; border-radius: 50%; display: flex; align-items: center; justify-content: center;">
-                <span id="days" style="font-size: 13vh; font-weight: bold;"></span> 
+                <span id="days" class="fontcount"></span> 
               </div>
             </div>
 
             <div class="me-1" style="border-radius: 10px; aspect-ratio: 1/1; display: flex; float: right; background-color: rgb(197, 176, 255); width: 25vb;  justify-content: center; display: flex; align-items: center; font-size: 5vb;">
               <div  style="background-color: white;  height: 90%; width: 90%;border-radius: 50%; display: flex; align-items: center; justify-content: center;">
-                <span id="hours" style="font-size: 13vh; font-weight: bold;"></span>
+                <span id="hours" class="fontcount"></span>
               </div>
             </div>
 
             <div class="me-1" style="border-radius: 10px; aspect-ratio: 1/1; display: flex; float: right; background-color: rgb(87, 255, 129); width: 25vb;  justify-content: center; display: flex; align-items: center; font-size: 5vb;">
               <div style="background-color: white;  height: 90%; width: 90%; border-radius: 50%; display: flex; align-items: center; justify-content: center;">
-                <span id="minutes" style="font-size: 13vh; font-weight: bold;"></span>
+                <span id="minutes" class="fontcount"></span>
               </div>
             </div>
 
             <div class="me-1" style="border-radius: 10px; aspect-ratio: 1/1; display: flex; float: right; background-color: rgb(141, 247, 255); width: 25vb;  justify-content: center; display: flex; align-items: center; font-size: 5vb;">
               <div style="background-color: white;  height: 90%; width: 90%;  border-radius: 50%; display: flex; align-items: center; justify-content: center;">
-                <span id="seconds" style="font-size: 13vh; font-weight: bold;"></span>
+                <span id="seconds" class="fontcount"></span>
               </div>
             </div>
             

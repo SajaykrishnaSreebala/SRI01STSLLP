@@ -1,7 +1,7 @@
 html,body {
-  margin:0;
-  padding:0;
-  overflow-x:hidden;
+  margin : 0;
+  padding : 0;
+  overflow-x : hidden;
   background-color: rgb(255, 255, 255);
 }
 
@@ -29,22 +29,28 @@ html,body {
 
 
 
-@media (max-width: 1026px) { 
-  #whitereset { 
-    margin-top: 100px;
-  } 
-  #rightSlideid{
-  height: 18vh;
-  }
-  #aboutscreenadjust{
-  height: 50vh;
-  }
-  #textcompanyadjust{
-    font-size: x-large;
-  }
+#navbarbackgrnd{
+  background-color: rgb(0, 191, 166);
+  z-index: 1;
+  height: 17vh;
 }
 
+#logoimage{
+  height: 17vb; 
+  object-fit: contain;
+  align-items: center; 
+  position: absolute; 
+  top: 30px; 
+  left: 8%;
+}
 
+#cationctaxi{
+  height: 12vh; margin-left: 10vb; margin-top: 15vb; position: absolute;
+}
+
+#ctaxiwordmark{
+  width: 70vb; margin-left: 15vb; margin-top: 30vb; position: absolute;
+}
 
 
 .left_intro_about_bharat{
@@ -56,6 +62,22 @@ html,body {
   height: 80vh;
   float: left;
 }
+
+#animationvehicle{
+  height: 80vh;  position: absolute;
+}
+
+
+#aboutc_taxi{
+  padding-left:10%; 
+  position: absolute; 
+  top: 12vh; 
+  left: 5vb; 
+  font-style:italic; 
+  font-weight: bold; 
+  text-decoration: underline;
+}
+
 
 
 .leftSlide{
@@ -75,10 +97,6 @@ html,body {
 
 
 
-
-
-
-
 #toptitle {
   aspect-ratio: 1/1; 
   display: flex; 
@@ -87,4 +105,209 @@ html,body {
   width: 25vb; 
   justify-content: center; 
   display: flex; align-items: center;
+}
+
+
+#imageCarosolslider{
+  height: 50vh; 
+  margin: 8vb; 
+  padding: 2vb; 
+  width: 50vh;
+  background-color: white; 
+  position: relative; 
+  border-radius: 50%;
+}
+
+
+#textcompanyadjust{
+  font-size: x-large;
+  margin-left: 10vb; 
+  margin-top: 25vh; 
+  position: absolute; 
+  font-style: italic;
+}
+
+#imgcaroselslider{
+  height: 50vh; margin: 8vb; padding: 2vb; width: 50vh; background-color: white; position: relative; border-radius: 50%;
+}
+
+#sreebalatrade{
+  background-color: white; height: 50vh; width: 70vb; border-bottom-left-radius: 40px; border-bottom-right-radius: 50px; margin-left: 12vb;
+}
+
+#imagetradelogo{
+  height: 45vh; position: absolute;
+}
+
+#our_vision_test{
+  font-size: x-large; padding-left: 10vb; padding-right: 10vb; line-height: 1.5; font-style: oblique;
+}
+
+
+#currentAge{
+  font-size: x-large; padding-left: 10vb; padding-right: 10vb; line-height: 1.5; font-style: oblique; text-align: left;
+}
+
+#backgroundImg{
+  background-image: url('../assets/backgroundlogo.png'); background-size: cover; background-repeat: no-repeat;; background-position-y: bottom;
+}
+#bharatseva{
+  height: 40vh; width: 70vb; border-radius: 40px; justify-content: center; border-bottom-right-radius: 50px; margin-left: 12vb; border-left: 2px solid rgba(180, 180, 180, 0.13); margin: 20px; position: absolute; top: 40vh;
+}
+#titlewebsite{
+  padding-left:5%; position: absolute; top: 12vh; left: 5vb; font-style:italic; font-weight: bold; text-decoration: underline;
+}
+
+#countdowntime{
+  border-radius: 10px; aspect-ratio: 2/1; display: flex; float: right; border-radius: 10px; background-color: rgb(141, 247, 255); width: 25vb; justify-content: center; display: flex; align-items: center; font-size: 4vb;
+}
+
+.fontcount{
+  font-size: 13vh; font-weight: bold;
+}
+
+#alignspaceevely{
+  display: flex; justify-content: center; align-items: center;
+}
+
+#btnready{
+  position: absolute; right: 10vb; top: 80vh; border-radius: 10px; padding: 1vh; width: 40vh; height: 15vh; font-size: xx-large; font-weight: bold; background-color: rgb(243, 255, 243); color: #04a104; border: #000000; box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#alignspaceevely{
+  display: flex; justify-content: center; align-items: center;
+}
+
+@media (max-width: 1026px) { 
+
+  #btnready{
+    position: absolute; right: 10vb; top: 25vh; border-radius: 10px; padding: 1vh; width: 40vh; height: 15vh; font-size: xx-large; font-weight: bold; background-color: rgb(243, 255, 243); color: #04a104; border: #000000; box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+
+  .fontcount{
+    font-size: 5vh; font-weight: bold;
+  }
+
+  #countdowntime{
+    border-radius: 10px; aspect-ratio: 2/1; display: flex; float: right; border-radius: 10px; background-color: rgb(141, 247, 255); width: 25vb; justify-content: center; display: flex; align-items: center; font-size: large; 
+  }
+
+  #titlewebsite{
+    padding-left:5%; position: absolute; top: 5vh; left: 5vb; font-style:italic; font-weight: bold; text-decoration: underline;
+  }
+
+  #bharatseva{
+    height: 40vh; width: 70vb; border-radius: 40px; justify-content: center; border-bottom-right-radius: 50px; margin-left: 12vb; border-left: 2px solid rgba(180, 180, 180, 0.13); margin: 20px; position: absolute; top: 25vh;
+  }
+
+  #backgroundImg{
+    background-image: url('../assets/backgroundlogo.png'); background-size: cover; height: 10vh; background-repeat: no-repeat; background-position-y: bottom;
+  }
+
+  #our_vision_test{
+    font-size: x-large; padding-left: 0vb; padding-right: 0vb; line-height: 1.5; font-style: oblique;
+  }
+  #currentAge{
+    font-size: x-large; padding-left: 1vb; padding-right: 1vb; line-height: 1.5; font-style: oblique; text-align: left;
+  }
+
+  #imagetradelogo{
+    height: 25vh; 
+  }
+
+  #sreebalatrade{
+    background-color: rgba(255, 255, 255, 0);  
+    height: 50vh; 
+    width: 100%; 
+    justify-content: center;
+    display: flex;
+    border-bottom-left-radius: 40px; 
+    border-bottom-right-radius: 50px; 
+    margin-left: 0vb;
+  }
+  
+  #aboutc_taxi{
+  padding-left:10%; 
+  position: absolute; 
+  top: 5vh; 
+  left: 2vb; 
+  font-style:italic; 
+  font-weight: bold; 
+  text-decoration: underline;
+  }
+
+  #whitereset { 
+    margin-top: 100px;
+  } 
+
+  #rightSlideid{
+  height: 18vh;
+  width: 100%;
+  }
+
+  #aboutscreenadjust{
+  height: 30vh;
+  }
+
+  #textcompanyadjust{
+    font-size: x-large;
+    margin-left: 5vb; margin-top: 12vh; position: absolute; font-style: italic;
+    
+  }
+
+  #navbarbackgrnd{
+    height: 10vh;
+    background-color: rgb(27, 172, 155);
+    z-index: 1;
+    height: 10vh;
+  }
+
+  #logoimage{
+    height: 10vb; 
+    object-fit: contain;
+    align-items: center; 
+    position: absolute; 
+    top: 30px; 
+    left: 8%;
+  }
+  
+  #cationctaxi{
+    height: 10vh; margin-left: 2vb; margin-top: 10vb; position: absolute;
+  }
+
+  #ctaxiwordmark{
+    width: 35vb; margin-left: 5vb; margin-top: 30vb; position: absolute;
+  }
+  
+  .left_intro_about_bharat{
+  height: 40vh;
+  float: left;
+  }
+
+  .right_intro_about{
+  height: 40vh;
+  float: left;
+  }
+
+  #animationvehicle{
+    height: 40vh;  position: absolute;
+  }
+
+  #imgcaroselslider{
+    height: 35vh;  margin: 8vb; padding: 2vb; object-fit: contain; background-color: white; position: relative; border-radius: 50%;
+  }
+
+  .leftSlide{
+  height: 40vh;
+  width: 100%;
+  float: left;
+  }
+
+  .rightSlide{
+  height: 40vh;
+  float: left;
+  }
+
+
+
 }

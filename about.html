@@ -10,12 +10,13 @@
 </head>
 <body onload="ageCount()">
 
+   
   <div style="background-color: rgb(255, 255, 255);">
     <div>
-      <nav class="navbar navbar-expand-lg navbar-dark" style=" background-color: rgb(0, 191, 166); height: 15vh;" aria-label="Eighth navbar example">
+      <nav class="navbar navbar-expand-lg navbar-dark" id="navbarbackgrnd" aria-label="Eighth navbar example">
         <div class="container">
           <a class="navbar-brand" href="#">
-          <img src="assets\ctaxilogo.png" class="img-fluid" alt="image loading error logo" style="height: 17vb; align-items: center; position: absolute; top: 30px; left: 8%; "></a>
+          <img src="assets\ctaxilogo.png" class="img-fluid" alt="image loading error logo" id="logoimage"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample06" aria-controls="navbarsExample06" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -59,32 +60,31 @@
         </div>
       </nav>
     </div>
-    <div style="height: 5vh;">
-
-    </div>
+    
     
   </div>
 
-      <div class="row" style="background-color: rgb(141, 255, 202); background-image: url('../assets/backgroundlogo.png'); background-size: contain; background-repeat: no-repeat; background-position-y: bottom;">
-        <div class="left_intro_about_bharat col-sm-6" id="aboutscreenadjust" style="position: relative;">
-          <h1 style=" padding-left:10%; position: absolute; top: 12vh; left: 5vb; font-style:italic; font-weight: bold; text-decoration: underline;">About C-Taxi</h1>
-          <h3 id="textcompanyadjust" style="margin-left: 10vb; margin-top: 25vh; position: absolute; font-style: italic;">
-            A Taxi Booking App in India. <br>Powered by, <br>
-            <b>SREEBALA TECHNOLOGY SERVICES LLP</b>
-          </h3>
-        </div>
-        <div class="right_intro_about col-sm-6" style="position: relative;">
-          <button style="position: absolute; left: 50vb; top: 60vh; border-radius: 10px; padding: 1vh; width: 20vh; font-size: larger; font-weight: bold; background-color: rgb(243, 255, 243); color: #04a104; border: #000000; box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);">
-            More
-          </button> 
-        <div style="background-color: white; height: 50vh; width: 70vb; border-bottom-left-radius: 40px; border-bottom-right-radius: 50px; margin-left: 12vb;">
-          <img src="assets\sreebalatradelogo.png" class="img-fluid" alt="image loading error logo" style="height: 44vh;  position: absolute;">
-        </div> 
-        
-        </div>
-       
-      </div>
-
+  <div class="row" style="background-color: rgb(141, 255, 202); background-image: url('../assets/backgroundlogo.png'); background-size: contain; background-repeat: no-repeat; background-position-y: bottom;">
+    <div class="left_intro_about_bharat col-sm-6" id="aboutscreenadjust" style="position: relative;">
+      <h1 id="aboutc_taxi">About C-Taxi</h1>
+      <h3 id="textcompanyadjust">
+        A Taxi Booking App in India. <br>Powered by, <br>
+        <b>SREEBALA TECHNOLOGY SERVICES LLP</b>
+      </h3>
+    </div>
+    <div class="right_intro_about col-sm-6" style="position: relative;">
+      <a href="about.html">
+        <button style="position: absolute; left: 50vb; top: 60vh; border-radius: 10px; padding: 1vh; width: 20vh; font-size: larger; font-weight: bold; background-color: rgb(243, 255, 243); color: #04a104; border: #000000; box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);">
+          More
+        </button> 
+      </a>
+    <div id="sreebalatrade">
+      <img src="assets\sreebalatradelogo.png" class="img-fluid" id="imagetradelogo" alt="image loading error logo">
+    </div> 
+    
+    </div>
+   
+  </div>
 
 
 
@@ -107,7 +107,7 @@
       
       
 
-      <p class="text-md" style=" font-size: x-large; padding-left: 10vb; padding-right: 10vb; line-height: 1.5; font-style: oblique; text-align: left;" id="currentAge">
+      <p class="text-md" id="currentAge">
             <b id="demo"></b> old, Incorporated with Ministry of Corporate Affairs on 24th  April, 2024 and Registered at Registrar of Companies (ROC) - Ernakulam.
         
         <br>    <br>
@@ -121,8 +121,6 @@ Kerala - India 683522 <br>
 Contact us,<br>
 md@sreebala.in <br>
 +91 79026 72231 <br>
-
-
 
 <br>
 <br>
@@ -145,7 +143,7 @@ Paid-Up Capital :  <b>Rs. 2,000/-</b> <br>
           <br>
           <h3 style="text-decoration: underline; font-style: italic;">Vision</h3>
        
-           <p class="text-md" style=" font-size: x-large; padding-left: 10vb; padding-right: 10vb; line-height: 1.5; font-style: oblique;">
+           <p class="text-md" id="our_vision_test">
              Our C-Taxi by Sreebala aims to be a leading provider of Transportation and Other Related Services. The Taxi booking App "C-taxi" Services not only for Metro City, Our commitment extends beyond geographical boundaries, and we try to strive to comply with all relevant regulations, including the Motor Vehicle Act and other government guidelines. We pride ourselves on transparent pricing, try to adhering strictly to government-approved fare structures taxi booking app aims to enhance transportation services using software and Technology.
            </p>
            <h3 style="font-style: oblique;">
@@ -161,7 +159,7 @@ Paid-Up Capital :  <b>Rs. 2,000/-</b> <br>
              We Sincerely want to Our India Developed and be the part of process.
            </h4>
            <br>
-           <h4 style="font-style: oblique; text-align: right; padding-right: 30vb;">
+           <h4 style="font-style: oblique; text-align: right; padding-right: 10%;">
              <b>
             Jai Hind <br>
             Sreebala Team
@@ -211,9 +209,9 @@ Paid-Up Capital :  <b>Rs. 2,000/-</b> <br>
     
   
   
-  
-  
-
       <script src="script.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
 </body>
 </html>

@@ -33,7 +33,7 @@ window.setInterval(function(){
 
 
 
-    var countDownDate = new Date("Jul 21, 2024 11:21:00").getTime();
+    var countDownDate = new Date("Jul 24, 2024 11:21:00").getTime();
     var x = setInterval(function(){
         var now = new Date().getTime();
         var distance = countDownDate - now;
