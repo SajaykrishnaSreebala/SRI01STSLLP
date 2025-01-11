@@ -11,6 +11,8 @@ window.setInterval(function(){
 },5000)
 
 
+
+
   function ageCount() {
     var now =new Date();                            //getting current date
     var currentYear= now.getFullYear();                //extracting year from the date
@@ -61,3 +63,6 @@ window.setInterval(function(){
     },1000);
 
 
+
+
+document.getElementById('versionuse').innerHTML = 'Ver. 2.4.0 @ 11.01.2025 16:19 IST';
